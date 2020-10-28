@@ -14,7 +14,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #5A2989;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -35,4 +35,94 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+input {
+  background-color: #48216E;
+  border: none;
+  padding: 1rem;
+  width: 375px;
+  border-radius: 15px;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+}
+
+input::placeholder {
+  font-family: 'Poppins', sans-serif;
+}
+
+button {
+  border: none;
+  padding: 1rem;
+  border-radius: 15px;
+  margin-left: -4rem;
+  text-transform: uppercase;
+  color: #48216E;
+}
+
+input:focus,
+textarea:focus,
+select:focus,
+button:focus {
+    outline: none;
+}
+
+button:focus {
+    outline: 0 !important;
+}
+
+
+.rsu {
+  margin-top: 3rem;
+  display: flex;
+  flex-direction: column;
+  background-color: #48216E;
+  border-radius: 15px;
+  padding: 1rem 2rem;
+  width: 70%;
+}
+
+.rsu span {
+  font-size: .8rem;
+  text-transform:uppercase;
+}
+
+.rsu__container {
+  display: flex;
+  align-items: center;
+}
+
+.rsu__container span {
+  flex: 0 0 45%;
+}
+.rsu__container p {
+  flex: 0 0 10%;
+}
+
+.arrow {
+  color: white;
+  height: 2rem;
+  width: 2rem;
+  flex: 0 0 10%;
+}
+
+a {
+  font-size: .8rem;
+  color: white;
+}
+
+.surl {
+
+
+
+}
+
+.surl-container {
+  background-color: rgba(255, 255, 255, 0.473);
+  padding: 1rem 2rem;
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  margin-top: 2rem;
 }
