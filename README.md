@@ -1,6 +1,8 @@
 # Bat Url Shortener
 Live Application Link: <https://baturls.netlify.app/>
+
 Client Repository: <https://github.com/shamimferdous/bat-url-shortener-client__reactjs>
+
 Server Repository: <https://github.com/shamimferdous/bat-url-shortener-server__java-spring-boot-postgresql-hibernate-jpa>
 
 Bat Url Shortener is a url shortening service. The server is written in `Java` using the `Spring Boot` framework. For database layer `Postgresql` is used with `Hibernate` and `Spring Data JPA`. 
